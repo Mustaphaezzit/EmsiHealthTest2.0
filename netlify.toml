@@ -2,7 +2,7 @@
 
 [build]
   # Dossier à publier (où se trouve Login.html)
-  publish = "src"
+  publish = ""
   command = ""  # Pas de commande de build, projet HTML/JS simple
 
 # Redirections
