@@ -1,9 +1,24 @@
-[build]
-  base = "src"
-  publish = "auth"
-  command = ""  # si pas de build
+# netlify.toml
 
+[build]
+  # Dossier à publier (où se trouve Login.html)
+  publish = "src"
+  command = ""  # Pas de commande de build, projet HTML/JS simple
+
+# Redirections
+# Cette redirection fait que la racine "/" pointe sur Login.html
 [[redirects]]
-  from = "/*"
-  to = "/Login.html"
+  from = "/"
+  to = "/auth/Login.html"
   status = 200
+
+# Pas de redirection globale sur /* pour éviter de casser JS, CSS et assets
+# Tes fichiers JS, JSON et images seront servis normalement
+
+# Configuration des headers pour la sécurité et cache
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Cache-Control = "public, max-age=3600"
