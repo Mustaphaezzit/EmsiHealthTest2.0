@@ -1,0 +1,116 @@
+[
+  {
+    "userId": 1,
+    "CIN": "AA123456",
+    "firstName": "Admin",
+    "lastName": "System",
+    "email": "admin@hospital.com",
+    "password": "123456",
+    "phoneNumber": 612345678,
+    "address": "Casablanca",
+    "emergencyContacts": [{
+      "firstName": "Ali",
+      "lastName": "System",
+      "phoneNumber": 699999999,
+      "relationship": "Brother"
+    }],
+    "role": "admin",
+    "status": "active",
+    "createdAt": "2025-01-01"
+  },
+  {
+    "userId": 2,
+    "CIN": "BB234567",
+    "firstName": "Sara",
+    "lastName": "Bennani",
+    "email": "sara.doctor@hospital.com",
+    "password": "123456",
+    "phoneNumber": 611223344,
+    "address": "Rabat",
+    "emergencyContacts": [{
+      "firstName": "Khalid",
+      "lastName": "Bennani",
+      "phoneNumber": 677889900,
+      "relationship": "Husband"
+    }],
+    "role": "doctor",
+    "status": "active",
+    "createdAt": "2025-01-02"
+  },
+  {
+    "userId": 3,
+    "CIN": "CC345678",
+    "firstName": "Youssef",
+    "lastName": "El Amrani",
+    "email": "youssef.doctor@hospital.com",
+    "password": "123456",
+    "phoneNumber": 622334455,
+    "address": "Fes",
+    "emergencyContacts": [{
+      "firstName": "Amina",
+      "lastName": "El Amrani",
+      "phoneNumber": 688776655,
+      "relationship": "Sister"
+    }],
+    "role": "doctor",
+    "status": "active",
+    "createdAt": "2025-01-03"
+  },
+  {
+    "userId": 4,
+    "CIN": "DD456789",
+    "firstName": "Nadia",
+    "lastName": "Staff",
+    "email": "nadia.staff@hospital.com",
+    "password": "123456",
+    "phoneNumber": 633221100,
+    "address": "Kenitra",
+    "emergencyContacts": [{
+      "firstName": "Mohamed",
+      "lastName": "Staff",
+      "phoneNumber": 655443322,
+      "relationship": "Father"
+    }],
+    "role": "staff",
+    "status": "active",
+    "createdAt": "2025-01-04"
+  },
+  {
+    "userId": 5,
+    "CIN": "EE567890",
+    "firstName": "Ahmed",
+    "lastName": "Patient",
+    "email": "ahmed@gmail.com",
+    "password": "123456",
+    "phoneNumber": 644556677,
+    "address": "Agadir",
+    "emergencyContacts": [{
+      "firstName": "Fatima",
+      "lastName": "Patient",
+      "phoneNumber": 677112233,
+      "relationship": "Mother"
+    }],
+    "role": "patient",
+    "status": "active",
+    "createdAt": "2025-01-05"
+  },
+  {
+    "userId": 6,
+    "CIN": "FF678901",
+    "firstName": "Khadija",
+    "lastName": "Patient",
+    "email": "khadija@gmail.com",
+    "password": "123456",
+    "phoneNumber": 655667788,
+    "address": "Marrakech",
+    "emergencyContacts": [{
+      "firstName": "Omar",
+      "lastName": "Patient",
+      "phoneNumber": 688990011,
+      "relationship": "Husband"
+    }],
+    "role": "patient",
+    "status": "active",
+    "createdAt": "2025-01-06"
+  }
+]
