@@ -6,3 +6,8 @@
   from = "/"
   to = "/src/auth/Login.html"
   status = 200
+  
+[[redirects]]
+  from = "/Dashboards/*"
+  to = "/src/Dashboards/:splat"
+  status = 200
