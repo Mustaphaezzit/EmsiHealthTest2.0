@@ -1,0 +1,9 @@
+[build]
+  base = "src"
+  publish = "auth"
+  command = ""  # si pas de build
+
+[[redirects]]
+  from = "/*"
+  to = "/Login.html"
+  status = 200
