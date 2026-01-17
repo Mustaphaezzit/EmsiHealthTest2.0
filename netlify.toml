@@ -1,8 +1,8 @@
 [build]
-  publish = "."
-  command = ""  # pas de build
+  publish = "."   # racine du projet
+  command = ""
 
 [[redirects]]
   from = "/"
-  to = "/auth/Login.html"
+  to = "/src/auth/Login.html"
   status = 200
